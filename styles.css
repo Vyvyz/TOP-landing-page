@@ -6,8 +6,8 @@ body {
     /* min-width:fit-content; */
     /* flex: 1; */
     font-family: Roboto, sans-serif;
-    /* min-width: 0;
-    overflow: hidden; */
+    min-width: 0;
+    /* overflow: hidden; */
 }
 
 button {
