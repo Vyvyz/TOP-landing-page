@@ -3,9 +3,11 @@ body {
     min-height: 100vh;
     /* display: flex;
     flex-direction: column; */
-    min-width:fit-content;
+    /* min-width:fit-content; */
     /* flex: 1; */
     font-family: Roboto, sans-serif;
+    /* min-width: 0;
+    overflow: hidden; */
 }
 
 button {
@@ -16,6 +18,9 @@ button {
     display: flex;
     flex: 1;
     flex-direction: column;
+    flex-wrap: wrap;
+    flex: 0 0 auto;
+    min-width: 0;
 }
 /* Section 1 */
 
@@ -49,6 +54,7 @@ ul {
     gap: 300px;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .container2mini {
@@ -79,7 +85,7 @@ img {
     margin: 0;
     gap: 40px;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
     text-align: center;
     text-wrap: wrap;
