@@ -89,7 +89,7 @@ img {
     /* border: brown solid; */
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding: 60px;
 }
 
 
@@ -261,4 +261,15 @@ button {
     border-radius: 8px;
     color: #e5e7eb;
     font-weight: bold;
+}
+
+/* Copyright - Design */
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #f9faf8;
 }
