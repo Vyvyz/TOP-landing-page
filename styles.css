@@ -29,7 +29,7 @@ button {
 .container1 {
     padding: 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -46,8 +46,8 @@ ul {
     padding: 40px;
     margin: 0;
     display: flex;
-    /* gap: 40px; */
-    justify-content: space-around;
+    gap: 300px;
+    justify-content: center;
     align-items: center;
 }
 
@@ -107,7 +107,7 @@ img {
 }
 
 .auto1 {
-    height: 150px;
+    height: 200px;
     border-radius: 25px;
 }
 
@@ -135,9 +135,9 @@ img {
     /* border: blue solid; */
     padding: 50px;
     margin: 100px;
-    gap: 40px;
+    gap: 60px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .left, .right {
